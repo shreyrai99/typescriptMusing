@@ -98,3 +98,9 @@ var Manager = /** @class */ (function (_super) {
 var man = new Manager('Babu');
 man.delegateWork();
 man.greeting();
+// VI.Access Modifiers
+/* Set accessibility of things in class, public private protected
+default: public
+private: cant be accessed, even by children
+protected: when we want access to base class but base shudnt be accessed by others
+*/ 
